@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simon</string>
+    <string name="press_start_to_start_game">Press Start to start Game</string>
+    <string name="start">Start</string>
+    <string name="app_by_aphb">App By Anusha_M</string>
+    <string name="todo">maingameimg</string>
+    <string name="level">Touch On Mouse to Start Game</string>
+    <string name="endView">Game Over</string>
+    <string name="restart">Re Start</string>
+    <string name="reenter">restart</string>
+    <string name="app_by_anu">App By Anusha_M</string>
+</resources>
