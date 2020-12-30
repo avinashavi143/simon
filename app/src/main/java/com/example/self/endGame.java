@@ -22,9 +22,9 @@ public class endGame extends AppCompatActivity {
         text = (TextView) findViewById(R.id.textView3);
 
         //Initialize Adds
+        Bundle levelCount = getIntent().getExtras();
 
-
-        text.setText("Sad! your jerry was in Danger :(");
+        text.setText("Sad! your jerry was in Danger :( at Level "+levelCount.get("Level"));
 
         restart.setOnClickListener(new View.OnClickListener() {
             @Override

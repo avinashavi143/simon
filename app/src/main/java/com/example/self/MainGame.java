@@ -213,6 +213,7 @@ public class MainGame extends AppCompatActivity {
 
     public void endgame() {
         Intent intent = new Intent(this, endGame.class);
+        intent.putExtra("Level",levelcount);
         startActivity(intent);
     }
 
